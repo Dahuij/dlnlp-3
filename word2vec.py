@@ -10,8 +10,7 @@ import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-# 设置中文字体
-font_path = 'C:/Windows/Fonts/simhei.ttf'
+
 try:
     font_prop = fm.FontProperties(fname=font_path)
     plt.rcParams['font.sans-serif'] = ['SimHei']  # 设置全局字体
